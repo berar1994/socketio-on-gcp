@@ -1,0 +1,39 @@
+
+doctype html
+html(lang="en")
+  head
+    title Websockets Echo
+    meta(charset="utf-8")
+  body(data-external-ip=externalIp)
+    div
+      p External ip:
+      pre(id="echo-external-ip")
+
+    div
+      p Webscoket URI:
+      pre(id="echo-websocket-uri")
+
+    script(src="https://cdn.socket.io/socket.io-1.4.5.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+    script.
+      // [START js]
+      $(function() {
+
+        var webSocketHost = location.protocol === 'https:' ? 'wss://' : 'ws://';
+        var externalIp = $('body').data('external-ip');
+        var webSocketUri =  webSocketHost + externalIp + ':65080';
+
+        console.log(webSocketUri);
+        var external_ip = $('#echo-external-ip');
+        var websocket_uri = $('#echo-websocket-uri');
+
+        external_ip.text(externalIp);
+        websocket_uri.text(webSocketUri);
+
+        var socket = io(webSocketUri);
+
+        socket.on('event', (msg) =>{
+          console.log(msg);
+        });
+      });
+      // [END js]
