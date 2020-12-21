@@ -2,8 +2,9 @@
   <h3>Barter</h3>
   <h5>
     ```diff
-    # < 1000 BC</h5>
+    # < 1000 BC
     ```
+   </h5>
   | <br>
   | <br>
   <h3>Cash</h3>
