@@ -1,6 +1,12 @@
 
 <div align="center">
-  <h3>Barter</h3>
+ <h3>
+   
+```diff
+ # < 1000 BC
+```
+</h3>
+
   <h5 style="color: grey"> < 1000 BC </h5>
   | <br>
   | <br>
