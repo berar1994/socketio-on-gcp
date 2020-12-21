@@ -1,19 +1,29 @@
 
 <div align="center">
  <h3>
-   
-```diff
- # Barter
-```
-</h3>
-
-  <h5 style="color: grey"> < 1000 BC </h5>
+ 
+ ```
+  Barter
+  < 1000 BC
+ ```
+ </h3>
   | <br>
   | <br>
-  <h3>Cash</h3>
-  <h5>1000 BC</h5>
+ 
+ <h3>
+ 
+ ```
+  Cash
+  1000 BC
+ ```
+ </h3>
   | <br>
   | <br>
-  <h3>Cheque</h3>
-  <h5>1000</h5>
+ <h3>
+ 
+ ```
+  Cheque
+  1500
+ ```
+ </h3>
 </div>
