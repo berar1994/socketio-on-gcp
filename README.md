@@ -1,8 +1,9 @@
-<style>
- .red {
-   color: #FF1F3E;
-  }
-</style>
+This is a regular paragraph.
 
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
 
-[This is red text]{.red}
+This is another regular paragraph.
