@@ -19,7 +19,7 @@
 - red
 + green
 ! orange
-# gray
+ gray
 ```
 
 </h2>
