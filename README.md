@@ -1,19 +1,11 @@
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
 
-.  
-+-- _config.yml  
-+-- _drafts  
-|   +-- begin-with-the-crazy-ideas.textile  
-|   +-- on-simplicity-in-technology.markdown  
-+-- _includes  
-|   +-- footer.html  
-|   +-- header.html  
-+-- _layouts  
-|   +-- default.html  
-|   +-- post.html  
-+-- _posts  
-|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile  
-|   +-- 2009-04-26-barcamp-boston-4-roundup.textile  
-+-- _data  
-|   +-- members.yml  
-+-- _site  
-+-- index.html  
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
