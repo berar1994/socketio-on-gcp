@@ -5,4 +5,4 @@
 </style>
 
 
-<p class=red"> This is red text </p>
+[This is red text]{.red}
