@@ -3,7 +3,7 @@
  <h3>
    
 ```diff
- # < 1000 BC
+ # Barter
 ```
 </h3>
 
@@ -17,15 +17,3 @@
   <h3>Cheque</h3>
   <h5>1000</h5>
 </div>
-  
-  
- <h2>
-
-```diff
-- red
-+ green
-! orange
- gray
-```
-
-</h2>
